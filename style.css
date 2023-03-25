@@ -1,0 +1,367 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+    background:  #172656;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__brand{
+    width: 30%;   
+}
+.nav__ul{
+    width: 50%;
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+.nav__item{
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    gap: 12px;
+}
+.btn1{
+    border-radius: 10px;
+    border: 1px solid #FFBE0B;
+    background-color: #172656;
+    color: #fff;
+    padding: 6px 15px;
+}
+.btn2{
+    padding: 6px 15px;
+    background-color: #FFBE0B;
+    color: #172656;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    background-color: #172656;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+.heros{
+    display: flex;
+}
+.hero-title{
+    padding-top: 230px;
+    color: #fff;
+}
+.hero-title h1{
+    font-size: 62px;
+    width: 500px;
+}
+.hero-title p{
+    color: #868695;
+    line-height: 20px;
+    width: 360px;
+}
+.hero-img{
+    padding-top: 30px;
+}
+.btn-19{
+    padding: 12px 120px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #172656;
+    color: #fff;
+}
+.butlar button{
+    padding: 6px;
+    border: 1px solid #172656;
+    color: #3A86FF    ;
+    background-color: #1f398d;
+}
+.liver i{
+    
+    transform: translateX(40px);
+    font-size: 25px;
+}
+.btn-1000{
+    padding: 6px 15px;
+    border-radius: 10px;
+    transform: translateX(-90px);
+    background-color: #FFBE0B;
+    font-weight: 600;
+}
+.renger{
+    transform: translateX(-23px);
+    padding-top: 30px;
+}
+.langer{
+    margin-top: 200px;
+    display: flex;
+}
+.lange-title button{
+    padding: 6px;
+    border: 1px solid #172656;
+    color: #3A86FF    ;
+    transform: translateY(250px);
+    background-color: #1f398d;
+}
+.lange-title h1{
+    color: #fff;
+    padding-top: 260px;
+    font-size: 48px;
+    width: 500px;
+}
+.hiden{
+    margin-top: 530px;
+    display: flex;
+    transform: translateX(-500px);
+    gap: 70px;
+}
+.hidlar{
+    
+}
+.hidlar h1{
+    font-size: 38px;
+    color: #FFBE0B;
+}
+.hidlar p{
+    margin-top: 10px;
+    width: 200px;
+    color: #868695;
+}
+.hidor h1{
+    color: #FB5607;
+    font-size: 38px;
+}
+.hidor p{
+    margin-top: 10px;
+    width: 200px;
+    color: #868695;
+}
+.loreg{
+    display: flex;
+    gap: 80px;
+}
+.lore-taler{
+    gap: 80px;
+    display: flex;
+}
+.gol{
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+}
+.lore-title{
+    margin-top: 70px;
+}
+.lore-title button{
+    padding: 6px;
+    border: 1px solid #172656;
+    color: #3A86FF    ;
+    background-color: #1f398d;
+}
+.lore-title h1{
+    font-size: 48px;
+    color: #fff;
+    width: 450px;
+}
+.lore-title p{
+    width: 350px;
+    color: #868695;
+    margin-top: 20px;
+}
+.teg-4 h1{
+    padding-top: 10px;
+    color: #fff;
+}
+.teg-4 p{
+    color: #868695;
+    padding-top: 10px;
+    width: 200px;
+}
+.liyt h1{
+    padding-top: 10px;
+    color: #fff;
+}
+.liyt p{
+    color: #868695;
+    padding-top: 10px;
+    width: 220px;
+}
+.gollar h1{
+    padding-top: 10px;
+    color: #fff;
+}
+.gollar p{
+    color: #868695;
+    padding-top: 10px;
+    width: 220px;
+}
+.golvorm h1{
+    padding-top: 10px;
+    color: #fff;
+}
+.golvorm p{
+    color: #868695;
+    padding-top: 10px;
+    width: 210px;
+}
+.color{
+    padding-top: 160px;
+    gap: 80px;
+    display: flex;
+}
+.color-title button{
+    padding: 6px;
+    border: 1px solid #172656;
+    color: #3A86FF    ;
+    background-color: #1f398d;
+}
+.cal h1{
+    font-size: 48px;
+    color: #fff;
+    width: 500px;
+}
+.colo{
+    margin-top: 55px;
+}
+.colo h1{
+    color: #fff;
+    font-size: 20px;
+}
+.colo p{
+    padding-top: 10px;
+    color: #868695;
+    width: 300px;
+}
+.cola{
+    padding-top: 40px;
+}
+.cola h1{
+    color: #fff;
+    font-size: 22px;
+}
+.cola p{
+    padding-top: 10px;
+    color: #868695;
+    width: 300px;
+}
+.colors{
+    margin-top: 40px;
+}
+.colors h1{
+    color: #fff;
+    font-size: 22px;
+}
+.colors p{
+    padding-top: 10px;
+    color: #868695;
+    width: 300px;
+}
+.lag{
+    display: flex;
+    width: 90%;
+    margin-left: 120px;
+    gap: 300px;
+}
+.lag-title{
+    transform: translateY(300px);
+}
+.lag-title button{
+    padding: 6px;
+    border: 1px solid #172656;
+    color: #3A86FF    ;
+    background-color: #1f398d;
+}
+.lag-title h1{
+    color: #fff;
+    font-size: 48px;
+    width: 480px;
+}
+.lag-title p{
+    width: 380px;
+    margin-top: 20px;
+    line-height: 23px;
+    color: #868695;
+    font-size: 16px;
+}
+.qir{
+    text-align: center;
+}
+.qir-title h1{
+    font-size: 48px;
+    color: #fff;
+}
+.qir-title p{
+    font-size: 16px;
+    color: #868695;
+}
+.btn-77{
+    margin-top: 40px;
+    margin-left: 60px;
+    background-color: #172656;
+    color: #868695;
+    padding: 12px 135px;
+    border-radius: 10px;
+}
+.btn-79{
+    padding: 7px 14px ;
+    background-color: #FFBE0B;
+    font-weight: 700;
+    border-radius: 10px;
+    transform: translateX(-110px);
+}
+.form label input{
+    margin-top: 20px;
+    padding: 10px 90px;
+    background-color: #172656;
+    border-radius: 10px;
+}
+.footer{
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 180px;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #172656;
+}
+.fors ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    color: #fff;
+    gap: 40px;
+    font-size: 16px;
+}
+.form button{
+    transform: translateX(-100px);
+    padding: 5px 7px;
+    border-radius: 7px;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #FFBE0B;
+    background-color: #FFBE0B;
+}
+.toy ul{
+    display: flex;
+    gap: 50px;
+}
+.toy ul li{
+    list-style: none;
+}
